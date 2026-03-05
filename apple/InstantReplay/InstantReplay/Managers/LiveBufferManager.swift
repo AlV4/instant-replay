@@ -59,7 +59,7 @@ final class LiveBufferManager {
     /// Get a thread-safe snapshot of the current buffer for export
     func snapshot() -> [CMSampleBuffer] {
         bufferQueue.sync {
-            logger.info("Creating snapshot with \(samples.count) samples")
+            logger.info("Creating snapshot with \(self.samples.count) samples")
             return samples.map { $0.sampleBuffer }
         }
     }
