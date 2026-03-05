@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAA00001 /* InstantReplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00001; };
-		AAA00002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00002; };
-		AAA00003 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00003; };
-		AAA00004 /* LiveBufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00004; };
-		AAA00005 /* ClipRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00005; };
-		AAA00006 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00006; };
-		AAA00007 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00007; };
-		AAA00008 /* PreviewModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00008; };
-		AAA00009 /* LiveModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00009; };
-		AAA00010 /* DebugOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00010; };
-		AAA00011 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00011; };
-		AAA00012 /* Logger+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00012; };
-		AAA00013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB00013; };
-		AAA00014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB00014; };
+		AAA00001 /* InstantReplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00001 /* InstantReplayApp.swift */; };
+		AAA00002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00002 /* ContentView.swift */; };
+		AAA00003 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00003 /* CameraManager.swift */; };
+		AAA00004 /* LiveBufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00004 /* LiveBufferManager.swift */; };
+		AAA00005 /* ClipRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00005 /* ClipRecorder.swift */; };
+		AAA00006 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00006 /* AppStateManager.swift */; };
+		AAA00007 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00007 /* CameraPreviewView.swift */; };
+		AAA00008 /* PreviewModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00008 /* PreviewModeOverlay.swift */; };
+		AAA00009 /* LiveModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00009 /* LiveModeOverlay.swift */; };
+		AAA00010 /* DebugOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00010 /* DebugOverlayView.swift */; };
+		AAA00011 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00011 /* AppModels.swift */; };
+		AAA00012 /* Logger+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB00012 /* Logger+App.swift */; };
+		AAA00013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB00013 /* Assets.xcassets */; };
+		AAA00014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB00014 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,7 +144,7 @@
 /* Begin PBXNativeTarget section */
 		AAF00001 /* InstantReplay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAG00003;
+			buildConfigurationList = AAG00003 /* Build configuration list for PBXNativeTarget "InstantReplay" */;
 			buildPhases = (
 				AAD00002 /* Sources */,
 				AAD00001 /* Frameworks */,
@@ -167,14 +167,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					AAF00001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = AAG00001;
+			buildConfigurationList = AAG00001 /* Build configuration list for PBXProject "InstantReplay" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,6 +262,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TDGN5JNK5R;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -285,6 +286,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -325,6 +327,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TDGN5JNK5R;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -341,6 +344,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,12 +362,12 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = InstantReplay/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Instant Replay";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,12 +393,12 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = InstantReplay/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Instant Replay";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
